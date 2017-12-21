@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace TravalCompanyDb
 {
-    public class Class1
+    public class City
     {
+        [Key]
+        public virtual string Nome { get; set; }
     }
 }
